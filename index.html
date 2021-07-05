@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSS WEBSITE</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    /*
+    css reset
+    */
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("./img/FINAL.jpg") no-repeat ;
+      height: 100%;
+      background-size: cover;
+
+      font-family: Jomhuria;
+      
+    }
+
+    .left {
+      display: inline-block;
+
+      position: absolute;
+      left: 34px;
+      top: 20px;
+      /*border: rgb(175, 173, 162) 2px solid;*/
+    }
+    .left img {
+      width: 123px;
+    }
+
+    .center {
+      display: block;
+      width: 40%;
+      margin: 12px auto;
+
+      font-size: 37px;
+    }
+    .container {
+      display: inline-block;
+      margin-top: 20%;
+      margin-left: 30%;
+     /* border: green 2px solid;*/
+      width: 500px;
+      padding: 75px;
+      border-radius: 2px;
+    }
+    .btn {
+      margin: 3px;
+    }
+    /* .form-group { 
+      display: block;
+      width:33%;
+      margin: 12px auto;
+      text-align:center
+      
+
+    }*/
+    .center.navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 25px;
+      font-family: Yanone + Kaffeesatz;
+      text-align: justify;
+      padding: 10px;
+      margin: 10px;
+    }
+    .navbar li a {
+      text-decoration: none;
+    }
+    .navbar li a:hover {
+      color: grey;
+      cursor: pointer;
+    }
+    .right {
+      display: inline-block;
+
+      position: absolute;
+      right: 34px;
+
+      top: 25px;
+    }
+    .btn:hover {
+      cursor: pointer;
+      color: rgb(18, 32, 44);
+    }
+    .form-group input {
+      display: block;
+      width: 53%;
+      text-align: center;
+      margin: 12px auto;
+
+      padding: 1px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      width: 53%;
+      margin: auto;
+      text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <body>
+    <header class="header">
+      <!--left box for logo-->
+
+      <div class="left">
+        <img src="img/JSS_Logo.png" />
+      </div>
+
+      <!--center box for navbar-->
+      <div class="center">
+        <div class="navbar">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Alumini</a></li>
+          <li><a>Contact us</a></li>
+        </div>
+      </div>
+
+      <!--right box for buttons-->
+      <div class="right">
+        <button class="btn">Call us</button>
+        <button class="btn">Email us</button>
+      </div>
+      <div class="container">
+        <h1>Join best college of Noida</h1>
+        <fom action="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality" />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="btn"
+              name=""
+              placeholder="Course interested"
+            />
+          </div>
+          <button type="submit" class="">Submit</button>
+        </fom>
+      </div>
+    </header>
+  </body>
+</html>
