@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyframes and Animations</title>
+</head>
+<style>
+  .container{
+    background-color: chartreuse;
+    
+  }
+  .box{
+    width:233px;
+    height:455px;
+    position:relative;
+    background-color: purple;
+    animation-name: Ritika;
+    animation-duration:3s;
+    animation-iteration-count: 3;
+    animation-fill-mode: ;
+    animation-timing-function: ease-in-out;
+    
+  }
+ @keyframes Ritika{
+   0%{
+     top:0px;
+     left:0px;
+   }
+   25%{
+     top: 455px;
+     left:0px;
+   }
+   75%
+   {
+     top:455px;
+     left:455px;
+
+   }
+   100%{
+     top:0px;
+     left:455px;
+   }
+ }
+
+
+  
+</style>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+  
+</body>
+</html>

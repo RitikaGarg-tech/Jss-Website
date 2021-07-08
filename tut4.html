@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Shadow and Text Shadow</title>
+</head>
+<style>
+  .container{
+    display:flex;
+   
+    
+    
+  }
+  .card{
+    border:2px solid red;
+    background-color: pink ;
+    padding:30px 50px;
+    margin:12px 4px;
+    box-shadow: -10px -7px 32px 44px rgba(45, 45, 46, 0.9);
+    box-shadow: inset 10px 5px purple;
+    box-shadow: -10px -7px 32px 44px rgba(45, 45, 46, 0.9), inset 10px 5px green;
+
+  }
+  .card h1{
+    text-shadow:5px 3px purple ;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="card" id="card1">
+      <h1>Card 1</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi neque pariatur totam repellendus officiis et labore nostrum qui atque! Repudiandae labore dolorum omnis cumque. Libero blanditiis omnis accusantium accusamus velit ad voluptatibus cumque exercitationem.</p>
+    </div>
+    <div class="card" id="card2">
+      <h1>Card 2</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, facilis quaerat saepe doloremque obcaecati nam beatae nemo? Ipsa odio pariatur, id quae perferendis enim autem placeat a possimus, repudiandae expedita maiores error in tempore?</p>
+    </div>
+    <div class="card" id="card3">
+      <h1>Card 3</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi velit nostrum, deleniti odio atque fugiat harum inventore soluta aut veniam porro voluptatibus omnis rerum ullam quia! Est deleniti molestiae nam, placeat debitis rem in?</p>
+    </div>
+    <div class="card" id="card4">
+      <h1>Card 4</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque repellendus reiciendis officiis veniam, totam ipsam rerum repudiandae fugit quos aperiam ipsum omnis aut fuga sunt voluptatibus expedita. Nulla, adipisci at tenetur impedit magnam porro?</p>
+    </div>
+  </div>
+  
+</body>
+</html>
