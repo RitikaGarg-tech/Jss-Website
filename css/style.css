@@ -1,7 +1,12 @@
+*{
+  margin: 0px;
+  padding:0px;
+
+}
 #navbar
 {
   display:flex;
-  background-color:blue;
+  background-color:black;
  align-items: center;
 
 
@@ -10,7 +15,84 @@
 #navbar ul{
 display: flex;
 list-style: none;
-justify-content: space-between;
 
 
+
+}
+#navbar ul li{
+  padding:24px;
+  color :white;
+  
+  
+}
+#navbar ul li a:hover{
+  cursor: pointer;
+  color:blue;
+}
+#home
+{display:flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+height: 633px;
+}
+#top{
+  color:white;
+  background-color: crimson;
+}
+p{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#home::before{
+  content: '';
+  position: absolute;
+  background:url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg') no-repeat center center/cover;
+  
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity:0.8;
+
+}/*
+#home::before{
+ 
+background:url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+content:'';
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+opacity:0.5;
+}
+*/
+#middle{
+  display:flex;
+  background-color: rgb(26, 19, 34);
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+}
+.box{
+  margin:9px;
+  margin-top: 56px;
+  padding:12px;
+  border-color: darkblue;
+  background-color:white ;
+height: 193px;
+box-sizing: border-box;
+
+}
+.center{
+  text-align: center;
+}
+#middle .box img{
+  margin:auto;
+  display: block;
+  height: 123px;
 }
